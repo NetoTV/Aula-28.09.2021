@@ -30,6 +30,7 @@ export class ClienteInserirComponent {
       form.value.fone,
       form.value.email
     );
+    form.resetForm();
     //remover
     this.clienteAdicionado.emit(cliente);
   }
